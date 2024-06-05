@@ -1,7 +1,7 @@
 name: AWS example workflow
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
 env:
   BUCKET_NAME : "mydemoforgithub"
   AWS_REGION : "ap-east-1"
